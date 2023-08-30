@@ -43,4 +43,3 @@ main = do
   case args of
     [path,cols] -> renderImageFile (read cols :: Int) path
     _ -> putStrLn "USAGE: asciiImage path cols"
---main = renderImageFile "new.jpeg" 
